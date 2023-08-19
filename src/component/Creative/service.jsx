@@ -98,9 +98,34 @@ const creative = () => {
                 
             <br /><br /><br />
             <div className="container">
-                <div className="row margins">
+                <div className="row margins ">
+                    <div className="col-md-4  cards  ">
+                        <div className="d-flex ">
+                            <img className="mb-3" src={girl} alt="" />
+                            <p className="px-3">
+                            The experts easily identified the <br /> wand guided us through the <br /> creation of the c.
+                            </p>
+                            
+                        </div>
+
+                        <div className="d-flex paddings ">
+                        <p class="fw-bold">
+                            I love Sway
+                            </p>
+                            <img className="mb-3" src={emoji} alt="" />
+                        </div>
+                        <div className="container ">
+                            <hr />
+                        </div>
+                        <div className="d-flex paddings">
+                            <h6 >
+                             <span className="text-style">Vincent Smith </span>CEO at Ritmo
+                            </h6>
+                            
+                        </div>
+                    </div>
                     <div className="col-md-4 cards  ">
-                        <div className="d-flex">
+                        <div className="d-flex ">
                             <img className="mb-3" src={girl} alt="" />
                             <p className="px-3">
                             The experts easily identified the <br /> wand guided us through the <br /> creation of the c.
@@ -124,34 +149,9 @@ const creative = () => {
                             
                         </div>
                     </div>
-                    <div className="col-md-4 cards  ">
-                        <div className="d-flex">
-                            <img className="mb-3" src={girl} alt="" />
-                            <p className="px-3">
-                            The experts easily identified the <br /> wand guided us through the <br /> creation of the c.
-                            </p>
-                            
-                        </div>
 
-                        <div className="d-flex paddings">
-                        <p class="fw-bold">
-                            I love Sway
-                            </p>
-                            <img className="mb-3" src={emoji} alt="" />
-                        </div>
-                        <div className="container ">
-                            <hr />
-                        </div>
-                        <div className="d-flex paddings">
-                            <h6 >
-                             <span className="text-style">Vincent Smith </span>CEO at Ritmo
-                            </h6>
-                            
-                        </div>
-                    </div>
-
-                    <div className="col-md-4 cards  ">
-                        <div className="d-flex">
+                    <div className="col-md-4 cards   ">
+                        <div className="d-flex  ">
                             <img className="mb-3" src={girl} alt="" />
                             <p className="px-3">
                             The experts easily identified the <br /> wand guided us through the <br /> creation of the c.
@@ -190,9 +190,9 @@ const creative = () => {
             <h1 className="text-white ">
             We start by listening and let that shape our <br /> design process, with our clients as partners
             </h1>
-            <br /><br />
-            <button class="     btn-color-2 p-2 px-4" >Contact Us</button>
-            <br /><br />
+            <br />
+            <button class=" btn-color-2 p-2 px-4" >Contact Us</button>
+            <br /><br /><br /><br /> 
            </div>
         </div>
     );

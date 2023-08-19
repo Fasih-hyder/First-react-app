@@ -32,10 +32,11 @@ line-height: 27px; /* 168.75% */
 
 .bg-s3-img{
      
-    border-radius: 5px;
+border-radius: 5px;
 border: 1px solid #E8E8E8;
 background-color: #FFF;
 margin-bottom: 100px;
+
 }
 
 .bg-s3-col{
@@ -44,4 +45,13 @@ border: 1px solid #E8E8E8;
 background: #7854F7;
 margin-bottom: 100px;
 
+
+}
+
+
+
+@media (max-width: 768px) {
+    .company-p{
+        padding: 20px 0;
+    }
 }

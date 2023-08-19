@@ -19,13 +19,13 @@ const Section = () => {
 
                 <h6 class="text-center mt-5">Trusted by the world's best companies</h6>
                 <div class="container">
-                    <div class="row mt-3 text-center">
+                    <div class="row mt-3 text-center ">
 
                         <div class="col-md-2">
                             <img src={niky} alt="" />
                         </div>
 
-                        <div class="col-md-2">
+                        <div class="col-md-2 company-p">
                             <img src={spotify} alt="" />
                         </div>
 
@@ -33,7 +33,7 @@ const Section = () => {
                             <img src={googly} alt="" />
                         </div>
 
-                        <div class="col-md-2">
+                        <div class="col-md-2 company-p">
                             <img src={Iphone} alt="" />
                         </div>
 
@@ -41,7 +41,7 @@ const Section = () => {
                             <img src={amozany} alt="" />
                         </div>
 
-                        <div class="col-md-2">
+                        <div class="col-md-2 company-p">
                             <img src={airy} alt="" />
                         </div>
 
@@ -75,9 +75,9 @@ const Section = () => {
                     We believe scaling startups require a radically different kind of agency
                 </p>
                 <div class="container">
-                    <div class="row mb-5 ">
+                    <div class="row mb-5   ">
 
-                        <div class="col-md-4 bg-s3-img p-4">
+                        <div class="col-md-4 bg-s3-img  ">
                             <div className="text-center">
                                 <img class="" src={prize} alt="" />
                                 <h5 class="fw-bold mt-4">
@@ -91,9 +91,9 @@ const Section = () => {
 
                         </div>
 
-
-                        <div class="col-md-4 bg-s3-col p-3 ">
-                            <div className="text-center">
+                            
+                        <div class="col-md-4">
+                            <div className="text-center company-width bg-s3-col">
                             <img class="" src={stratr} alt="" />
                             <h5 class="fw-bold  text-white mt-3">
                             Strategy
@@ -108,9 +108,9 @@ const Section = () => {
 
 
                         </div>
+                            
 
-
-                        <div class="col-md-4 bg-s3-img p-3">
+                        <div class="col-md-4 bg-s3-img  ">
                             <div className="text-center">
                                 <img class="" src={webpage} alt="" />
                                 <h5 class="fw-bold  mt-4">

@@ -1,6 +1,6 @@
 import "./header.css";
 import logo  from '../../figma-images/images/Header-logo-img.svg'
-import troggler from '../../figma-images/images/Sort.svg'
+import troggler from '../../figma-images/images/image 103.svg'
 import main from '../../figma-images/images/main-Image.svg'
 import dots from '../../figma-images/images/Doots-1.svg'
 import dot1 from '../../figma-images/images/Doots-2.svg'
@@ -15,14 +15,14 @@ const Header = () => {
             <div class="bg-color">
             <nav class="container navbar navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src={logo} alt="" /> </a>
-          <button class="navbar-toggler border " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler border "> <img src={troggler} alt="" /> </span>
+          <a class="navbar-brand" href="#">  <img src={logo} alt="" /> </a>
+          <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="  "> <img src={troggler} alt="" /> </span>
           </button>
           <div class="collapse navbar-collapse  " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto gap-2 ">
               <li class="nav-item">
-                <a class="nav-link active text-black font" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-black font " aria-current="page" href="#"><u>Home</u></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-color" href="#">Case Studies </a>
@@ -44,9 +44,12 @@ const Header = () => {
           </div>
         </div>
       </nav>
+
+      
        <div class="position-relative">
             <img src={dot1} alt="" class="position-absolute top-0 end-0 imges-size mt-5 "/>
             </div>
+            <br /><br />
       <div class="container">
      
         <div class="row">
